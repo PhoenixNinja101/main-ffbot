@@ -1,7 +1,9 @@
 # main-ffbot
 A Discord version of the FanfictionLinker reddit bot that uses Jsoup and JDA API
   
-  Initial Commit - December 9, 2020 7:49 AM EST 
+  [Initial Commit]
+    
+    -created repository and added pom.xml, .classpath, .gitignore, and added src/main/java/discordAPI and src/main/java/webscrape
   
   [Version 1.01] 
     
