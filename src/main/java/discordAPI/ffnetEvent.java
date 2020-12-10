@@ -1,5 +1,8 @@
 package discordAPI;
 
+import java.awt.Color;
+
+import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import webscrape.getHTMLelementsOfFanfiction;
@@ -18,11 +21,19 @@ public class ffnetEvent extends ListenerAdapter {
 					ffID = messageSent[1];
 					
 					if (!ffID.equals(" ") && g.canFindFF(ffID)) {
-						event.getChannel().sendMessage(g.getTitle(ffID)).queue();	
-						event.getChannel().sendMessage(g.getAuthor(ffID)).queue();
-						event.getChannel().sendMessage(g.getDesc(ffID)).queue();
-						event.getChannel().sendMessage(g.getByLine(ffID)).queue();
+						EmbedBuilder eb = new EmbedBuilder();
 						
+						eb.setTitle("Hello", "https://google.com");
+						eb.setColor(Color.red);
+						eb.setDescription("Text");
+						eb.addField("Title blah blah blah blah", "Text blah blah blah", true);
+						eb.addBlankField(false);
+						eb.setAuthor("name", null, "https://github.com/zekroTJA/DiscordBot/blob/master/.websrc/zekroBot_Logo_-_round_small.png");
+						eb.setFooter("Text", "https://github.com/zekroTJA/DiscordBot/blob/master/.websrc/zekroBot_Logo_-_round_small.png");
+						eb.setImage("https://github.com/zekroTJA/DiscordBot/blob/master/.websrc/logo%20-%20title.png"); 	
+						eb.setThumbnail("https://github.com/zekroTJA/DiscordBot/blob/master/.websrc/logo%20-%20title.png");
+						
+						event.getChannel().sendMessage(eb.build()).queue();
 					}
 					else {
 						event.getChannel().sendMessage("I cannot find a fanfiction with that ID. Please try again.").queue();;
