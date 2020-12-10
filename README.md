@@ -8,6 +8,10 @@ A Discord version of the FanfictionLinker reddit bot that uses Jsoup and JDA API
   [Version 1.01] 
     
     -fixed bug in src/main/java/discordAPI/ffnet.java
+    
+  [Version 1.1]
+  
+    -removed sendMessage() and added EmbedBuilder() | Not linked with src/main/java/webscrape/getHTMLofFanfiction.java
   
   # Commands 
   
