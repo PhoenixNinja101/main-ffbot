@@ -96,7 +96,7 @@ public class getHTMLelementsOfFanfiction {
 		return byLineText;
 	}
 	
-	public boolean canFindFF(String ffID) {// NOTE! Change method so if noStoryFound element is not available it returns true
+	public boolean canFindFF(String ffID) {// Confirms if selected fanfiction is available
 		boolean obtainFF = true;
 		try{
 			Document doc = Jsoup.connect(getffIDnumber(ffID)).get();
