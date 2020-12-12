@@ -17,7 +17,12 @@ A Discord version of the FanfictionLinker reddit bot that uses Jsoup and JDA API
     
     -Edited EmbedBuilder eb() to finalize the format of master embed.
     (?) .setThumbnail() is not working | Fix or discard
+    
+  [Version 1.99]
+    
+    -Edited EmbedBuilder eb() | Decided to discard .setThumbnail() | Changed comments in src/main/java/webscrape/getHTMLelementsOfFanfiction.java
+    (?) Need to add hyperlinks to title and description 
   
   # Commands 
   
-    - !linkffn [ffid] | Add the ID of your fanfiction that can be found in the profile of your fanfiction.
+    - !linkffn [ffid] | Add the ID of your fanfiction that can be found in the profile of your chosen fanfiction.
