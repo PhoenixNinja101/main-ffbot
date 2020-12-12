@@ -1,27 +1,29 @@
 # main-ffbot
 A Discord version of the FanfictionLinker reddit bot that uses Jsoup and JDA API
   
-  [Initial Commit]
+  [Version 1.99]
     
-    -created repository and added pom.xml, .classpath, .gitignore, .project, README.md, and added src/main/java/discordAPI and src/main/java/webscrape
-  
-  [Version 1.01] 
-    
-    -fixed bug in src/main/java/discordAPI/ffnet.java
-    
-  [Version 1.1]
-  
-    -removed sendMessage() and added EmbedBuilder() | Not linked with src/main/java/webscrape/getHTMLelementsOfFanfiction.java
+    -Edited EmbedBuilder eb() | Decided to discard .setThumbnail() | Changed comments in src/main/java/webscrape/getHTMLelementsOfFanfiction.java
+    (?) Need to add hyperlinks to title and description 
     
   [Version 1.9]
     
     -Edited EmbedBuilder eb() to finalize the format of master embed.
     (?) .setThumbnail() is not working | Fix or discard
+  
+  [Version 1.1]
+  
+    -removed sendMessage() and added EmbedBuilder() | Not linked with src/main/java/webscrape/getHTMLelementsOfFanfiction.java
     
-  [Version 1.99]
+  [Version 1.01] 
     
-    -Edited EmbedBuilder eb() | Decided to discard .setThumbnail() | Changed comments in src/main/java/webscrape/getHTMLelementsOfFanfiction.java
-    (?) Need to add hyperlinks to title and description 
+    -fixed bug in src/main/java/discordAPI/ffnet.java
+    
+  [Initial Commit]
+    
+    -created repository and added pom.xml, .classpath, .gitignore, .project, README.md, and added src/main/java/discordAPI and src/main/java/webscrape
+    
+ 
   
   # Commands 
   
