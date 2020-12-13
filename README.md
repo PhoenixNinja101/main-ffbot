@@ -1,5 +1,6 @@
 # main-ffbot
 A Discord version of the FanfictionLinker reddit bot that uses Jsoup and JDA API
+Note: I am not responsible for hosting this bot. If you'd like to use it, I will let you host and use it on your own server as long as you link to this github repository.
   
   [Version 1.99]
     
