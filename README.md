@@ -32,13 +32,3 @@ If you'd like to incorporate this bot into your server. Please follow this https
   
     - !linkffn [ffid] | Add the ID of your fanfiction that can be found in the profile of your chosen fanfiction.
     
-    Open in Autocode
-================
-
-To add an Open in Autocode button to your GitHub repository,
-simply copy and paste the following code anywhere into README.md
-
-[&lt;img  data-src="https://deploy.stdlib.com/static/images/deploy.svg" width="192"&gt;](https://open.autocode.com/)
-
-Enjoy!
-  - Standard Library Team
